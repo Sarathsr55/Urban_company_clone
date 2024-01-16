@@ -1,0 +1,117 @@
+.contentpage_container{
+    padding: 100px 145px 0 145px;
+    display: flex;
+    justify-content: start;
+    align-items: start ;
+    min-height: 100vh;
+    z-index: 50;
+    position: relative;
+}
+.left_section{
+    width: 370px;
+    display: flex;
+    justify-content: left;
+}
+.sub_category{
+    width: 310px;
+    height: 350px;
+    border: 1px solid rgba(120, 117, 117, 0.515);
+    border-radius: 2%;
+}
+.sticky-left{
+    position: sticky ;
+    display: flex;
+    flex-direction: column;
+    top: 15%;
+    width: 310px;
+    border: 1px solid rgba(120, 117, 117, 0.515);
+    border-radius: 10px;
+}
+.sticky-right{
+    position: sticky;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    right: 125px;
+    border-radius: 10px;
+    width: 340px;
+    align-items: flex-end;
+}
+.sub_category_list{
+    padding: 0 20px 0 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 270px;
+    justify-content: space-between;
+    align-content: space-around;
+    min-height: 250px;
+}
+.right-section{
+    width: 870px;
+}
+
+.service_category_details{
+    width: 480px;
+    min-height: 500px;
+    border-left: .1px solid #D3D3D3;
+    border-right: .1px solid #D3D3D3;
+    border-bottom: 0.1px solid #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 16px 24px 16px 24px;
+}
+
+.right_side_card{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: sticky;
+}
+.cart_item_box{
+    min-height: 100px;
+    width: 270px;
+    padding: 16px 16px 16px 16px;
+    border: .1px solid #D3D3D3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.offer_box{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 270px;
+    padding: 0 16px 0 16px;
+    border: .1px solid #D3D3D3;
+    border-radius: 10px;
+}
+.promise_box{
+    display: flex;
+    height: 150px;
+    width: 270px;
+    padding: 16px 16px 16px 16px;
+    border: .1px solid #D3D3D3;
+    border-radius: 10px;
+}
+.range_box{
+    display: flex;
+    align-items: center;
+    border-bottom : 2px solid #D3D3D3;
+    width : 480px;
+}
+.range_box:last-child{
+    border-bottom: none;
+}
+.main_box{
+    border-top: 4px solid #D3D3D3;
+}
+.main_box:first-child{
+    border-top: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    text-align: left;
+}

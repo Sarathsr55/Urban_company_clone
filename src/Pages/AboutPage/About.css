@@ -1,0 +1,12 @@
+.about_container{
+    padding: 60px 145px 30px 145px;
+}
+.about_container h3,p{
+    margin: 5px;
+}
+.about_container p{
+    color: rgb(101, 101, 101);
+}
+.small_font{
+    font-size: 15px;
+}

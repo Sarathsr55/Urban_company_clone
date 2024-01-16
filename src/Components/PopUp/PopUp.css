@@ -1,0 +1,87 @@
+.popup-container{
+    background-color: rgb(255, 255, 255);
+    min-width: 500px;
+    position: fixed;
+    top: 30%;
+    width: 35%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgba(43, 43, 43, 0.426);
+    animation: dropBottom .3s ease-in;
+    z-index: 101;
+}
+.popup_on{
+    min-height: 100vh;
+}
+
+
+.popup-contents{
+    position: relative;
+    min-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px 32px 16px;
+}
+
+@keyframes dropBottom{
+    0%{
+        transform: translateY(250%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes dropDown{
+    0%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+
+.popup-contents::-webkit-scrollbar {
+    width: 5px;          /* width of the entire scrollbar */
+}
+  
+.popup-contents::-webkit-scrollbar-track {
+    
+    display: none;      /* color of the tracking area */
+}
+  
+.popup-contents::-webkit-scrollbar-thumb {
+    background-color: rgba(71, 71, 74, 0.481); 
+    border-radius: 20px; 
+    margin-top: 50px;
+    margin-bottom: 11px;
+    border-top-right-radius:50px;
+    border-bottom-right-radius: 50px;
+    height: 50px !important;
+    background-clip: content-box;
+}
+
+.popup-close-btn{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

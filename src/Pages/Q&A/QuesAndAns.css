@@ -1,0 +1,31 @@
+.ques_and_ans_container{
+    padding: 30px 145px 0 145px ;
+    display: flex;
+}
+.qa-left{
+    width: 830px;
+    border-right: .1px solid #D3D3D3;
+}
+.qa-right{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16px 0 56px;
+}
+.quesArea{
+    border-bottom: 0.5px solid #D3D3D3;
+    margin: 0 70px 0 5px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    cursor: pointer;
+}
+.quesAreaActive{
+    border-bottom: 0.5px solid #D3D3D3;
+    margin: 0 70px 0 5px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.reviews_container{
+    padding: 30px 145px 0 145px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.reviews_left{
+    width: 756px;
+    border-right: .1px solid #D3D3D3;
+}
+.reviews_right{
+    width: 425px;
+    
+}
+.rating_margin{
+    margin: 5px;
+    font-size: 14px;
+}
+.font_grey_color{
+    color: grey;
+}
+.marg1{
+    margin: 1px;
+}
+.show_more_btn:hover{
+    background-color: #D3D3D3;
+}
+.show_more_btn{
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+export default{
+    UC_LOGO : require('../../assets/images/uc_logo.png'),
+    MAP_LOGO: require('../../assets/images/map.png'),
+    SEARCH_ICON : require('../../assets/images/search.png'),
+    FURNISHED_APPARTMENT : require('../../assets/images/furnishedappartment.jpg'),
+    FURNISHED_BUNGLAOW : require('../../assets/images/furnishedbunglaow.jpg'),
+    UNFURNISHED_APPARTMENT : require('../../assets/images/unfurnishedappartment.jpg'),
+    UNFURNISHED_BUNGLAOW : require('../../assets/images/unfurnishedbunglaow.jpg'),
+    BOOK_BY_ROOM : require('../../assets/images/bookbyroom.jpg'),
+    ADD_ONS : require('../../assets/images/add-ons.png'),
+    COVER_PIC1 : require('../../assets/images/Coverpic1.jpeg'),
+    COVER_PIC2 : require('../../assets/images/Coverpic2.jpeg'),
+    EMPTY_CART : require('../../assets/images/empty_cart.jpg'),
+    DISCOUNT_LOGO : require('../../assets/images/discount.png'),
+    QUALITY_BADGE : require('../../assets/images/quality-badge.png'),
+    AVATAR_LOGO : require('../../assets/images/user.png'),
+    PLAYSTORE_LOGO : require('../../assets/images/googleplaylogo.png'),
+    APPSTORE_LOGO : require('../../assets/images/appstorelogo.png'),
+    GOOGLE_LOGO : require('../../assets/images/google.png')
+};
