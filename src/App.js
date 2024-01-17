@@ -34,7 +34,7 @@ const EnablePopup = () => {
     <div>
       {
         isPopupOn ?
-          <div className='pop_background'>
+          <div className='pop_background' style={{height:window.innerHeight}}>
             <PopUp setIsPopupOn={setIsPopupOn}>
               <div className='location_search_box'>
                 <IonIcon style={{ height: 22, width: 22, color: 'grey' }} size={44} icon={searchOutline} />
@@ -76,7 +76,7 @@ function App() {
   const [state, dispatch] = useReducer(AppReducer, initialState)
 
   return (
-    <div className="App">
+    <div className="App" style={{width:window.innerWidth-18}}>
       <PopupContext.Provider value={{ state, dispatch }}>
         <NavBar />
         <ContentPage />

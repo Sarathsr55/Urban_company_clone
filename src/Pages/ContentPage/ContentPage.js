@@ -205,7 +205,7 @@ const ContentPage = () => {
           </div>
         </div>
       </div>
-      <div style={{ position: 'absolute', top: `${height + 220}px`, left: 0, right: 0, borderTop: '4px solid #D3D3D3', margin: '0 145px 0 145px' }}></div>
+      <div style={{ position: 'relative', left: 0, right: 0, borderTop: '4px solid #D3D3D3', margin: '0 145px 0 145px' }}></div>
     </div>
   )
 }
