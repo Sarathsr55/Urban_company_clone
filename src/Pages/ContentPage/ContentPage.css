@@ -21,14 +21,14 @@
     position: sticky ;
     display: flex;
     flex-direction: column;
-    top: 15%;
+    top: 115px;
     width: 310px;
     border: 1px solid rgba(120, 117, 117, 0.515);
     border-radius: 10px;
 }
 .sticky-right{
     position: sticky;
-    top: 10%;
+    top: 80px;
     display: flex;
     flex-direction: column;
     right: 125px;
