@@ -3,15 +3,14 @@
     display: flex;
 }
 .qa-left{
-    width: 830px;
     border-right: .1px solid #D3D3D3;
+    width: fit-content;
 }
 .qa-right{
-    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 16px 0 56px;
+    width: fit-content;
 }
 .quesArea{
     border-bottom: 0.5px solid #D3D3D3;

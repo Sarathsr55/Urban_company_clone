@@ -1,9 +1,8 @@
 .contentpage_container{
-    padding: 100px 145px 0 145px;
+    padding: 10px 145px 0 145px;
     display: flex;
     justify-content: start;
     align-items: start ;
-    min-height: 100vh;
     z-index: 50;
     position: relative;
 }

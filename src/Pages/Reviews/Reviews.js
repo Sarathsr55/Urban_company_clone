@@ -16,7 +16,7 @@ const Reviews = () => {
             <div className='reviews_container'>
             <div className="reviews_left">
                 <h1>Customer reviews</h1>
-                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 70px 0 0' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 70px 0 0',width:'720px' }}>
                     <div>
                         <h1>Avg. user rating</h1>
                         <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -82,7 +82,7 @@ const Reviews = () => {
                 {
                     reviews.reviews.map((obj) => {
                         return (
-                            <div key={obj.id} style={{ margin: '0 0 10px 0', display:'flex',flexDirection:'column',alignContent:'space-between',borderTop:'1px solid #D3D3D3' }}>
+                            <div key={obj.id} style={{ margin: '0 0 10px 0', display:'flex',flexDirection:'column',alignContent:'space-between',borderTop:'1px solid #D3D3D3',width:'390px' }}>
                                     <Seperator height={20} />
                                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                                     <div style={{ display: 'flex' }}>

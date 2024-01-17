@@ -23,7 +23,6 @@ const NavBar = () => {
 
   return (
     <div className='navbar_container'>
-      <Seperator width={120} />
         <div className="logo">
             <img style={{height:'42px'}} src={images.UC_LOGO} alt="" />
         </div>

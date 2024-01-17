@@ -2,14 +2,12 @@
     padding: 30px 145px 0 145px ;
     display: flex;
     justify-content: space-between;
-    
 }
 .reviews_left{
-    width: 756px;
     border-right: .1px solid #D3D3D3;
 }
 .reviews_right{
-    width: 400px;
+    
 }
 .rating_margin{
     margin: 5px;
