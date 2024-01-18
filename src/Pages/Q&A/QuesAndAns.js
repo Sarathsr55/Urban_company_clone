@@ -42,9 +42,13 @@ const QuesAndAns = () => {
                                 </div>
                                 {
                                     active === obj.id ? 
-                                    <IonIcon style={{height:'22px',width:'22px',marginTop:'16px'}} icon={chevronUpOutline} />
+                                    <div style={{width:'22px'}}>
+                                        <IonIcon style={{height:'22px',width:'22px',marginTop:'16px'}} icon={chevronUpOutline} />
+                                    </div>
                                     :
-                                    <IonIcon style={{height:'22px',width:'22px'}} icon={chevronDownOutline} />
+                                    <div>
+                                        <IonIcon style={{height:'22px',width:'22px'}} icon={chevronDownOutline} />
+                                    </div>
                                 }
                             </div>
                         )
